@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./src/output.css" rel="stylesheet">
+    <script src="index.js"></script>
+</head>
+<body>
+
+    <main class="items-center justify-center flex-row">
+        <div id="Banner" class="flex justify-center items-center h-20">
+            <span class="font-bold text-2xl">TIC TAC TOE</span>
+        </div>
+        <div id="Banner" class="flex justify-center items-center p-2">
+            <div id="board" class="grid grid-cols-3 aspect-square h-96 gap-2">
+                <div class="bg-teal-300 rounded aspect-square flex items-center justify-center max-h-32 hover:bg-teal-800 text-8xl" onclick="tap(1)" id="block1"></div>
+                <div class="bg-teal-300 rounded aspect-square flex items-center justify-center max-h-32 hover:bg-teal-800 text-8xl" onclick="tap(2)" id="block2"></div>
+                <div class="bg-teal-300 rounded aspect-square flex items-center justify-center max-h-32 hover:bg-teal-800 text-8xl" onclick="tap(3)" id="block3"></div>
+                <div class="bg-teal-300 rounded aspect-square flex items-center justify-center max-h-32 hover:bg-teal-800 text-8xl" onclick="tap(4)" id="block4"></div>
+                <div class="bg-teal-300 rounded aspect-square flex items-center justify-center max-h-32 hover:bg-teal-800 text-8xl" onclick="tap(5)" id="block5"></div>
+                <div class="bg-teal-300 rounded aspect-square flex items-center justify-center max-h-32 hover:bg-teal-800 text-8xl" onclick="tap(6)" id="block6"></div>
+                <div class="bg-teal-300 rounded aspect-square flex items-center justify-center max-h-32 hover:bg-teal-800 text-8xl" onclick="tap(7)" id="block7"></div>
+                <div class="bg-teal-300 rounded aspect-square flex items-center justify-center max-h-32 hover:bg-teal-800 text-8xl" onclick="tap(8)" id="block8"></div>
+                <div class="bg-teal-300 rounded aspect-square flex items-center justify-center max-h-32 hover:bg-teal-800 text-8xl" onclick="tap(9)" id="block9"></div>
+            </div>
+        </div>
+        
+        <div id="status container" class="flex justify-center items-center h-20">
+            <span id="status" class="text-xl font-bold">It's X's Turn</span>
+        </div>
+        <div class="flex justify-center items-center"><button class="bg-blue-300 rounded p-2 hover:bg-teal-900 hover:text-xl" onclick="reset()">Reset</button></div>
+    </main>
+    
+</body>
+</html>
