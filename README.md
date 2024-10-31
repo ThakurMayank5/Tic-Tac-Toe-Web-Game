@@ -2,7 +2,7 @@
 
 A simple, interactive Tic-Tac-Toe game built using HTML, CSS, JavaScript, and Tailwind CSS for a modern UI. Enjoy the classic game against a friend or just for practice!
 
-[Play the Game](https://thakurmayank7.github.io/Tic-Tac-Toe-Web-Game/)
+[Play the Game](https://thakurmayank5.github.io/Tic-Tac-Toe-Web-Game/)
 ## Screenshot
 ![Game Screenshot](/src/res/GameScreen.jpg)
 
